@@ -1,0 +1,25 @@
+** unitConverter README **
+
+This program is a simple unit conversion utility for a handful of distance and
+mass units. Nothing fancy. This is the first Qt application I have built on my 
+own.
+
+A simple Qt project that consists of an empty mainWindow class with a very basic menu bar, and a converterWidget class, which inherits from QTabWidget, and provides the conversion functionality.
+
+
+Files included:
+	
+	README			-- this README file
+	main.cpp		-- the Qt main file
+	mainWindow.ui		-- the Qt Designer file for the main Window
+	unitConverter.pro	-- the qmake'd file for mainWindow.ui
+	unitmainwindow.cpp	-- implementation of subclassed mainwindow class
+	unitmainwindow.h	-- declaration of subclassed mainwindow class
+	
+	./converterWidget:
+	converterWidget.cpp	-- implementation of converterWidget class
+	converterWidget.h	-- declaration of converterWidget class
+	converterWidger.pro	-- qmake'd file for converterWidget.ui
+	converterWidget.ui	-- Qt Designer file for the converterWidget
+
+

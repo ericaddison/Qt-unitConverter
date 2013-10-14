@@ -10,6 +10,8 @@ A simple Qt project that consists of an empty mainWindow class with a very basic
 Files included:
 	
 	README			-- this README file
+	build.sh		-- simple script to run the required qmake commands
+	gitAddScript.sh	-- script to git-add all files (when needed) 
 	main.cpp		-- the Qt main file
 	mainWindow.ui		-- the Qt Designer file for the main Window
 	unitConverter.pro	-- the qmake'd file for mainWindow.ui
